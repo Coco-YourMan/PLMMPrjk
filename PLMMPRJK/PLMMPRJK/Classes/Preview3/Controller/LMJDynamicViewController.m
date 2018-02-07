@@ -227,6 +227,7 @@
     // 2. 设置标题
     demoVc.title = _dynamicArr[indexPath.row];
     
+    //  0:吸附行为  1:推动行为  2:刚性附着行为  3:弹性附着行为 4:碰撞检测
     // 3. 传递功能类型
     demoVc.function = (int)indexPath.row;
     
